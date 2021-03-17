@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -18,8 +18,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -27,12 +25,23 @@
 .App-link {
   color: #61dafb;
 }
+.welcome-container {
+  margin-top: 150px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.intro-container {
+  max-width: 500px;
+}
+
+.about-me-container {
+  margin-top: 100px;
+  max-width: 100px;
+}
+.osu-image-container {
+  max-width: 350px;
+  height: 150px;
+}
+.about-me-text {
+  font-size: large;
+  width: 150px;
 }
