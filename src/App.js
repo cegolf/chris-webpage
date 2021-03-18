@@ -1,14 +1,23 @@
-import logo from "./logo.svg";
 import "./App.css";
-import React, { Component } from "react";
-import { Grid, Image, Segment } from "semantic-ui-react";
+import React from "react";
+import { Container, Grid } from "semantic-ui-react";
 import Intro from "./Views/Intro";
-import ProfilePicture from "./assets/images/profile1.JPG";
+import Skills from "./Views/Skills";
 
 function App() {
   return (
     <div className="App-header">
-      <Intro />
+      <Container className="main-container">
+        <Grid centered container className="main-grid-container">
+          <Grid.Column className="main-grid-column" width={18}>
+            <Container className="content-container">
+              <Intro />
+              <Container className="skill-header-container">Skills</Container>
+              <Skills />
+            </Container>
+          </Grid.Column>
+        </Grid>
+      </Container>
     </div>
   );
 }

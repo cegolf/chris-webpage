@@ -1,56 +1,78 @@
-.App {
-  text-align: left;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #282834;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-.welcome-container {
-  margin-top: 150px;
+.main-grid-column {
+  top: 100px;
 }
 
 .intro-container {
   font-size: large;
+  padding-right: 200px;
+  padding-top: 15px;
+}
+.intro-text-container {
+  padding-top: 40px;
+  text-align: left;
+  background-color: #8787a3;
 }
 
-.about-me-container {
-  margin-top: 100px;
-  max-width: 100px;
+.intro-header {
+  font-size: x-large;
+  color: white;
 }
-.osu-image-container {
-  max-width: 350px;
-  height: 150px;
+.intro-subheader {
+  color: white;
+  font-size: larger;
+  padding-top: 10px;
 }
-.about-me-text {
-  font-size: large;
-  padding-right: 500px;
+.text-container {
+  padding-top: 15px;
+  color: white;
+  font-size: medium;
 }
-.welcome-header {
-  font-size: xx-large;
+.info-list-container {
+  padding-top: 35px;
+  color: white;
 }
-.activities-text {
-  font-size: large;
-  padding-right: 500px;
+.social-list-cotainer {
+  padding-top: 35px;
 }
-.activities-container {
-  padding-top: 150px;
+
+.social-link {
+  color: white;
+}
+
+.resume-button-container {
+  text-align: center;
+}
+
+.skill-header-container {
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  padding-top: 45px;
+}
+.programming-skills-containers {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding-top: 20px;
+}
+.other-skills-container {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding-top: 20px;
+}
+.progress-container {
+  padding-top: 45px;
+  padding-left: 25px;
+}
+.main-container {
+  background-color: gray;
+}
+.other-skills-progress-container {
+  padding-top: 45px;
+  padding-right: 25px;
 }
