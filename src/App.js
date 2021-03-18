@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Container, Grid } from "semantic-ui-react";
+import { Container, Grid, Menu } from "semantic-ui-react";
 import Intro from "./Views/Intro";
 import Skills from "./Views/Skills";
 

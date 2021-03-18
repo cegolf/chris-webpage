@@ -21,9 +21,15 @@ function IntroSegment() {
             <Image src={profile} size="large" className="profile-img" />
             <Divider />
             <Container className="resume-button-container">
-              <Button circular fluid color="yellow">
-                Download Resume
-              </Button>
+              <a
+                download="Christopher_Egolf_Resume.pdf"
+                target="../assets/images/Christopher_Egolf_Resume.pdf"
+                href="../assets/images/Christopher_Egolf_Resume.pdf"
+              >
+                <Button circular fluid color="yellow">
+                  Download Resume
+                </Button>
+              </a>
             </Container>
           </Container>
         </Grid.Column>

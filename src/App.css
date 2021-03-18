@@ -1,6 +1,7 @@
 .App-header {
   background-color: #282834;
-  min-height: 100vh;
+  min-height: 135vh;
+  display: flex;
 }
 .main-grid-column {
   top: 100px;
