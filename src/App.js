@@ -12,7 +12,9 @@ function App() {
           <Grid.Column className="main-grid-column" width={18}>
             <Container className="content-container">
               <Intro />
-              <Container className="skill-header-container">Skills</Container>
+              <Container className="skill-header-container">
+                My Skills
+              </Container>
               <Skills />
             </Container>
           </Grid.Column>
