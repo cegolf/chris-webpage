@@ -11,6 +11,7 @@ import {
 import profile from "../assets/images/profile1.JPG";
 import PersonalList from "../Views/PersonalList";
 import SocailList from "../Views/SocialList";
+import resume from "../assets/images/Christopher_Egolf_Resume.pdf";
 
 function IntroSegment() {
   return (
@@ -21,11 +22,7 @@ function IntroSegment() {
             <Image src={profile} size="large" className="profile-img" />
             <Divider />
             <Container className="resume-button-container">
-              <a
-                download="Christopher_Egolf_Resume.pdf"
-                target="../assets/images/Christopher_Egolf_Resume.pdf"
-                href="../assets/images/Christopher_Egolf_Resume.pdf"
-              >
+              <a download href={resume}>
                 <Button circular fluid color="yellow">
                   Download Resume
                 </Button>
