@@ -1,6 +1,6 @@
 {
   "homepage": "https://github.com/cegolf/chris-webpage",
-  "name": "personal-webpage",
+  "name": "chris-webpage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
