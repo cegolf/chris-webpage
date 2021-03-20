@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App-header">
       <Container className="main-container">
-        <Grid centered container className="main-grid-container">
+        <Grid centered stackable container className="main-grid-container">
           <Grid.Column className="main-grid-column" width={18}>
             <Container className="content-container">
               <Intro />

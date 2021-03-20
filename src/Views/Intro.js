@@ -16,7 +16,7 @@ import resume from "../assets/images/Christopher_Egolf_Resume.pdf";
 function IntroSegment() {
   return (
     <Segment inverted>
-      <Grid centered>
+      <Grid stackable centered>
         <Grid.Column width={7}>
           <Container className="left-intro-grid-container">
             <Image src={profile} size="large" className="profile-img" />
