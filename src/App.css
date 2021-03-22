@@ -46,6 +46,7 @@
 
 .resume-button-container {
   text-align: center;
+  color: black;
 }
 
 .skill-header-container {
@@ -76,4 +77,7 @@
 .other-skills-progress-container {
   padding-top: 45px;
   padding-right: 25px;
+}
+.mode-toggle {
+  color: white;
 }

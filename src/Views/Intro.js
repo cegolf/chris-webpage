@@ -15,7 +15,7 @@ import resume from "../assets/images/Christopher_Egolf_Resume.pdf";
 
 function IntroSegment() {
   return (
-    <Segment inverted>
+    <Segment inverted className="intro-segment" id="intro-segment">
       <Grid stackable centered>
         <Grid.Column width={7}>
           <Container className="left-intro-grid-container">
@@ -24,7 +24,9 @@ function IntroSegment() {
             <Container className="resume-button-container">
               <a download href={resume}>
                 <Button circular fluid color="yellow">
-                  Download Resume
+                  <Container className="resume-button-container">
+                    Download Resume
+                  </Container>
                 </Button>
               </a>
             </Container>
