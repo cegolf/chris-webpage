@@ -7,22 +7,20 @@ import Skills from "./Views/Skills";
 export default class App extends Component {
   render() {
     return (
-      <div className="App-header">
-        <Container className="main-container">
-          <Grid centered stackable container className="main-grid-container">
-            <Grid.Column className="main-grid-column" width={18}>
-              <Container className="content-container">
-                <Intro />
-                <Container className="skill-header-container">
-                  My Skills
-                </Container>
-
-                <Skills />
+      <Container className="main-container">
+        <Grid centered stackable container className="main-grid-container">
+          <Grid.Column className="main-grid-column" width={18}>
+            <Container className="content-container">
+              <Intro />
+              <Container className="skill-header-container">
+                My Skills
               </Container>
-            </Grid.Column>
-          </Grid>
-        </Container>
-      </div>
+
+              <Skills />
+            </Container>
+          </Grid.Column>
+        </Grid>
+      </Container>
     );
   }
 }

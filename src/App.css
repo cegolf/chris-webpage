@@ -1,10 +1,11 @@
 .App-header {
-  background-color: #282834;
-  min-height: 140vh;
   display: flex;
 }
+#root {
+  background-color: #282834;
+}
 .main-grid-column {
-  top: 100px;
+  padding-top: 30px;
 }
 
 .intro-container {
