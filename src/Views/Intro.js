@@ -12,6 +12,7 @@ import profile from "../assets/images/profile1.JPG";
 import PersonalList from "../Views/PersonalList";
 import SocailList from "../Views/SocialList";
 import resume from "../assets/images/Christopher_Egolf_Resume.pdf";
+import refs from "../assets/images/References.pdf";
 
 function IntroSegment() {
   return (
@@ -21,14 +22,24 @@ function IntroSegment() {
           <Container className="left-intro-grid-container">
             <Image src={profile} size="large" className="profile-img" />
             <Divider />
-            <Container className="resume-button-container">
-              <a download href={resume}>
-                <Button circular fluid color="yellow">
-                  <Container className="resume-button-container">
-                    Download Resume
-                  </Container>
-                </Button>
-              </a>
+            <Container className="button-container">
+              <Container className="resume-button-container">
+                <a download href={resume}>
+                  <Button circular fluid color="yellow">
+                    <Container className="resume-button-container">
+                      Download Resume
+                    </Container>
+                  </Button>
+                </a>
+                <Divider />
+                <a download href={refs}>
+                  <Button circular fluid color="yellow">
+                    <Container className="references-button-container">
+                      Download References
+                    </Container>
+                  </Button>
+                </a>
+              </Container>
             </Container>
           </Container>
         </Grid.Column>

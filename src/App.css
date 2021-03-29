@@ -82,3 +82,9 @@
 .mode-toggle {
   color: white;
 }
+.references-button-container {
+  color: black;
+}
+.button-container {
+  align-content: flex-start;
+}
