@@ -32,7 +32,7 @@ function Skills() {
             <Progress
               active
               color="yellow"
-              value="6"
+              value="8"
               total="10"
               progress="ratio"
             />
@@ -91,7 +91,7 @@ function Skills() {
             <Progress
               active
               color="yellow"
-              value="5"
+              value="6"
               total="10"
               progress="ratio"
             />
